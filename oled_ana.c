@@ -1,14 +1,8 @@
 /* 
  * File:   oled_ana.c
- * Author: Celal
+ * Author: Celal Erdem
  *
- * Created on August 7, 2026, 3:19 PM
- */
-
-/* 
- * File:   I2C_ana.c
- * Author: Celal
- *
+ * PIC18F45K22 içindir.
  * Created on June 21, 2026, 3:16 PM
  */
 
