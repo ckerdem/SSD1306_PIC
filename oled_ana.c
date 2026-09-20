@@ -114,7 +114,15 @@ int main() {
        __delay_ms(5000);
        SSD1306_Command(0xAF);       //  Panel açık
        __delay_ms(5000);
-       
+       SSD1306_Command(0xA1);       // Panel yatayda simetrik gösterir
+       __delay_ms(5000); 
+       SSD1306_Command(0xA0);       // Panel yatayda simetriği düzeltir
+       __delay_ms(5000);  
+       SSD1306_Command(0xC8);       // Panel düşeyde simetrik gösterir
+       __delay_ms(5000); 
+       SSD1306_Command(0xC0);       // Panel düşeyde simetriği düzeltir
+       __delay_ms(5000);
+        
        SSD1306_Command(0x26);       //  Sağa kaydırma ayarları
        SSD1306_Command(0x0);
        SSD1306_Command(0x1);        //  Başlangıç sayfası: 1
